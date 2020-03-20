@@ -1,0 +1,15 @@
+start at 0.
+go to beginning of list
+grab b+1.
+go to end of list.
+[15,7,88,63,77,99,5,55]
+ F                  E
+ start at index 0.
+ go next to 7.
+ grab 7.
+ go to index 0
+ check.  if -1. then swap.
+ go back to index 1. then insert 15.
+
+
+

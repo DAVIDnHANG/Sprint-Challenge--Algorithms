@@ -96,8 +96,28 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        # Fill this out
-        pass
+        #sort list using only CCL, left, CCR, right, swap number, C#IT +1 held is greater, C#IT -1 held is lesser, have light
+
+        #while robot can move left or right, then robot will fill off cliff.
+        David = SortingRobot()
+        #go to the beginning of list
+        while(David.can_move_left()):
+            David.move_left()
+        David.move_right()
+        if(David.compare_item == 0):
+            David.swap_item()
+            EmptyIndex = SortingRobot()
+            EmptyIndex.set_light_on()
+        David.move_left()
+        if (David.compare_item() == -1):
+            David.swap_item()
+            while()
+            David.move_right()
+
+
+
+
+
 
 
 if __name__ == "__main__":
